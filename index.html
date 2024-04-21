@@ -11,16 +11,19 @@
     </div>
     <div class = "tweetBox">
         <div class="tweetBoxHeader">
-            <img src="hello_extensions.png">
-            <h2>Name @handle</h2>
+            <!-- grab imageURL from X api-->
+            <img id = "imageid" src=https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png>
+            <!-- grab name and handle from X api-->
+            <h2 id = "profileName">Name</h2>
+            <h2 id = "profileHandle" class = "handle">@handle</h2>
         </div>
         <div class = "tweetBoxContent">
-            <p>No fishy tweets have been detected yet</p>
+            <p id = "tweetContent">No fishy tweets have been detected yet</p>
         </div>
     </div>
 <div>
     <p class = "warning">This tweet may be a scam</p>
 </div>
 </body>
-<script src ="script.js"></script>
+<script src ="content_script.js"></script>
 </html>
