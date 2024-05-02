@@ -1,8 +1,8 @@
 // ls__283ae37e351d47eea207b09257e5c09a
 
 
-process.env.LANGCHAIN_API_KEY = "ls__283ae37e351d47eea207b09257e5c09a";
-process.env.OPENAI_API_KEY = "sk-proj-8twVG4o5ATizkF8nEPirT3BlbkFJVF6TclCXi5dWPFhkpjWO";
+process.env.LANGCHAIN_API_KEY = "";
+process.env.OPENAI_API_KEY = "";
 import {
     ChatPromptTemplate,
     FewShotChatMessagePromptTemplate,
